@@ -6,13 +6,16 @@ Build interactive waterfall charts in Blazor to visualize financial data flows, 
 
 This sample demonstrates how to create professional waterfall charts in Blazor applications using Blazor Charts component. Waterfall charts are ideal for visualizing cumulative effects of sequential financial data, showing how an initial value is affected by a series of positive or negative values.
 
-### What You'll Learn
+## Features
 
-- Building interactive waterfall charts with Blazor
-- Configuring chart series, axes, and formatting
-- Working with Syncfusion Blazor Charts component
-- Displaying financial data with intermediate and final sum points
-- Implementing tooltips and data labels for better visualization
+- **Waterfall Chart Visualization** - Display financial flows with positive and negative values to show how revenue transforms through various business operations
+- **Interactive Tooltips** - Hover over chart elements to reveal detailed value information with formatted currency display
+- **Intermediate Sums** - Mark and highlight cumulative breakpoints in the chart (such as Gross Profit calculations)
+- **Final Totals** - Emphasize end calculations and summary values (such as Net Profit)
+- **Responsive Design** - Charts automatically adapt and scale to different screen sizes and device orientations
+- **Bootstrap Theming** - Professional appearance with Bootstrap 5 styling integration
+- **Data Labels** - Display values directly on chart bars for immediate readability
+
 
 ## Prerequisites
 
@@ -46,16 +49,6 @@ dotnet restore
 dotnet run
 ```
 
-## Features
-
-- **Waterfall Chart Visualization** - Display financial flows with positive and negative values
-- **Interactive Elements** - Hover tooltips showing detailed value information
-- **Intermediate Sums** - Mark cumulative points within the chart (e.g., Gross Profit)
-- **Final Sums** - Highlight total calculations (e.g., Net Profit)
-- **Responsive Design** - Charts adapt to different screen sizes
-- **Bootstrap Theming** - Built-in Bootstrap 5 styling for professional appearance
-- **Data Labels** - Display values directly on chart bars
-
 ## Key Components
 
 ### Home.razor
@@ -66,18 +59,9 @@ The main page containing the waterfall chart implementation. It demonstrates:
 - Adding tooltips and data labels
 - Defining intermediate and final sum points
 
-## Technology Stack
-
-- **.NET 9** - Modern .NET runtime
-- **Blazor Server** - Interactive server-side Blazor components
-- **Syncfusion Blazor Charts (v29.1.38)** - Professional charting component
-- **Bootstrap 5** - Responsive UI framework
-- **C#** - Primary programming language
-
 ## Resources
 
-- [Waterfall Chart Guide](https://www.domo.com/learn/charts/waterfall-charts)
+- [Waterfall Chart Guide](https://blazor.syncfusion.com/documentation/chart/chart-types/waterfall)
 - [Waterfall Chart Definition, Use Cases, and Anatomy](https://www.visualizing.org/waterfall-chart)
-- [Microsoft Blazor Documentation](https://learn.microsoft.com/aspnet/core/blazor/)
-- [.NET 9 Release Notes](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)
+
 
