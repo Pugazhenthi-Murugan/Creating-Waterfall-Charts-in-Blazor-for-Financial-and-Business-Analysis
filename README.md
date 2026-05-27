@@ -1,6 +1,6 @@
 # Creating Waterfall Charts in Blazor for Financial and Business Analysis
 
-Build interactive waterfall charts in Blazor to visualize financial data flows, revenue breakdowns, and business metrics using Blazor Charts.
+Build interactive Blazor waterfall [charts](https://www.syncfusion.com/blazor-components/blazor-charts)  to create compelling financial visualizations. This sample demonstrates how to build professional, responsive waterfall charts to analyze revenue flows, profit breakdowns, and complex financial metrics with real-world data examples and comprehensive styling.
 
 ## Overview
 
@@ -48,16 +48,6 @@ dotnet restore
 # Run the project
 dotnet run
 ```
-
-## Key Components
-
-### Home.razor
-The main page containing the waterfall chart implementation. It demonstrates:
-- Creating a waterfall chart with Syncfusion's `SfChart` component
-- Configuring chart series with `ChartSeries` of type `Waterfall`
-- Setting up primary X and Y axes
-- Adding tooltips and data labels
-- Defining intermediate and final sum points
 
 ## Resources
 
